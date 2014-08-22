@@ -107,5 +107,5 @@ Sportbook::Application.routes.draw do
   #######################
   # home route
   
-  root :to => 'pages#home'
+  root :to => 'admin/pools#index'
 end
